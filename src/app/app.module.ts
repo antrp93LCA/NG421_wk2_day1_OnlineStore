@@ -6,6 +6,7 @@ import { ProductDetailComponent } from './product-detail/product-detail.componen
 import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
 import { CarouselComponent } from './carousel/carousel.component';
+import { SideBarComponent } from './side-bar/side-bar.component';
 
 @NgModule({
   declarations: [
@@ -13,7 +14,8 @@ import { CarouselComponent } from './carousel/carousel.component';
     ProductDetailComponent,
     HeaderComponent,
     FooterComponent,
-    CarouselComponent
+    CarouselComponent,
+    SideBarComponent
   ],
   imports: [
     BrowserModule
