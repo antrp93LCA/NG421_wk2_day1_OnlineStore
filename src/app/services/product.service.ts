@@ -9,6 +9,7 @@ export class ProductService {
 
   shoppingCart: IProduct[];
   products: IProduct[];
+ 
   constructor() {
     this.products = products;
   }
