@@ -7,6 +7,7 @@ import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
 import { CarouselComponent } from './carousel/carousel.component';
 import { SideBarComponent } from './side-bar/side-bar.component';
+import { ReviewsComponent } from './reviews/reviews.component';
 
 @NgModule({
   declarations: [
@@ -15,10 +16,11 @@ import { SideBarComponent } from './side-bar/side-bar.component';
     HeaderComponent,
     FooterComponent,
     CarouselComponent,
-    SideBarComponent
+    SideBarComponent,
+    ReviewsComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
