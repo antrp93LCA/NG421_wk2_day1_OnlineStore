@@ -20,6 +20,7 @@ export class ProductDetailComponent implements OnInit {
 
   productBuy(){
     this.productAdded.emit(this.product)
+    console.log(this.product);
   }
 
 }

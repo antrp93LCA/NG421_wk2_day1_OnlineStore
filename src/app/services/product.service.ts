@@ -7,7 +7,7 @@ import { products } from '../products'
 })
 export class ProductService {
 
-  shoppingCart: IProduct[];
+  shoppingCart: Array<IProduct> = [];
   products: IProduct[];
  
   constructor() {

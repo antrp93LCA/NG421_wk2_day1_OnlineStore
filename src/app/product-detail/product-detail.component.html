@@ -9,7 +9,7 @@
             <p>{{product.description}} <a target="_blank" href="http://www.bootsnipp.com">Bootsnipp -
                     http://bootsnipp.com</a>.</p>
         </div>
-        <button type="submit" name="submit"> Add To Cart </button>
+        <button (click)="productBuy()" type="submit" name="submit"> Add To Cart </button>
         <div class="ratings">
             <p class="pull-right">{{product.reviews}}</p>
             <p>
